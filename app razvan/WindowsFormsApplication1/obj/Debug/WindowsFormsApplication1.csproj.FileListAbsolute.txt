@@ -1,0 +1,17 @@
+C:\Users\Colector606\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Colector606\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Colector606\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Colector606\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Colector606\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Colector606\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Colector606\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Colector606\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\hackton 3\Hackathon\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\hackton 3\Hackathon\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\hackton 3\Hackathon\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\hackton 3\Hackathon\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\hackton 3\Hackathon\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+D:\hackton 3\Hackathon\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\hackton 3\Hackathon\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\hackton 3\Hackathon\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\hackton 3\Hackathon\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
