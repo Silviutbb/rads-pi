@@ -18,14 +18,19 @@ namespace WindowsFormsApplication1
     public partial class Form1 : Form
     {
         public int Adevarat;
+        public bool Check1;
+        public bool Check2;
         public string Username;
         public string Password;
         
         public Form1()
         {
             Adevarat = 0;
+            Check1 = false;
+            Check2 = false;
             InitializeComponent();
             textBox2.Text = "Neconectat";
+            
 
             
             
@@ -90,6 +95,7 @@ namespace WindowsFormsApplication1
                 catch
                 {
                     MessageBox.Show("Moloz pe tava");
+                    Adevarat = 0;
                 }
 
                 //MessageBox.Show(url1, "A");
@@ -107,6 +113,7 @@ namespace WindowsFormsApplication1
                     Form1 f = new Form1();
                     this.Visible = false;
                     this.Hide();
+                  
                     
                 }
           //  MessageBox.Show(Username , "A");
@@ -132,8 +139,8 @@ namespace WindowsFormsApplication1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-           Username = textBox1.Text;
-            
+           
+           Username = textBox1.Text;            
 
         }
 
@@ -141,6 +148,13 @@ namespace WindowsFormsApplication1
         {
            Password = textBox3.Text;
         }
+
+        
+            
+        
+
+       
+        
 
         
 
