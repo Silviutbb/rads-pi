@@ -1,0 +1,51 @@
+<html>
+<head>
+<style type="text/css">
+body {
+background-color:red;
+background-image:url("/pi.svg");
+background-repeat:no-repeat;
+background-position:center; 
+}
+
+body.Green
+{
+background-color:green;
+}
+</style>
+<script src="/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+	
+$(document).ready(function()
+{
+var toggle = false;
+  var socket = io.connect('http://'+document.domain);
+  socket.on('connect', function () {
+	console.log("connected");
+  });
+  
+  $(document).on("click",function(e)
+  {
+	if($("body").hasClass("Green"))
+	{
+		$("body").removeClass("Green");
+		socket.emit('moveEvent', { GO: "true" });
+		console.log("emited");
+	}
+	else
+	{
+		$("body").addClass("Green");
+		socket.emit('moveEvent', { GO: "false" });
+		console.log("emited");
+	}
+	
+	
+  });
+  });
+</script>
+</head>
+<body>
+</div>
+</body>
+</html>
