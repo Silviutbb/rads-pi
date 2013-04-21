@@ -65,7 +65,7 @@ namespace WindowsFormsApplication1
             //Adevarat = 1;
             System.Net.NetworkInformation.Ping p = new System.Net.NetworkInformation.Ping();
                 System.Net.NetworkInformation.PingReply prep;
-                string url = "10.10.0.32";
+                string url = "www.google.com";
                 prep = p.Send(url);
                 if (prep.Status == System.Net.NetworkInformation.IPStatus.Success)
                 {
@@ -95,7 +95,7 @@ namespace WindowsFormsApplication1
                 catch
                 {
                     MessageBox.Show("Moloz pe tava");
-                    Adevarat = 0;
+                    //Adevarat = 0;
                 }
 
                 //MessageBox.Show(url1, "A");
